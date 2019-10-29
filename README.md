@@ -4,7 +4,7 @@
 This a tutorial to show how to use the Pynq overlay on Ultra96 to interact with SDSoC.
 
 ## 2 Boot SD Card Creation
-If you get an SD card from us, it has some Pynq image inside. Go to If you did not get an SD Card from us, you can burn the image file into the SD card by yourself. Download the image files from [Pynq website](http://www.pynq.io/board.html). Choose Avnet `Ultra96-V2: v2.5 PYNQ image`. Download a tool called `balenaetcher`. Select the downloaded image file for Ultra96-V2, choose the SD card as target device and flash!
+If you get an SD card from us, it has some Pynq image inside, and Go to `4 Boot from Linux`. If you did not get an SD Card from us, you can burn the image file into the SD card by yourself. Download the image files from [Pynq website](http://www.pynq.io/board.html). Choose Avnet `Ultra96-V2: v2.5 PYNQ image`. Download a tool called `balenaetcher`. Select the downloaded image file for Ultra96-V2, choose the SD card as target device and flash!
 
 ![](/img/flash.JPG)
 
@@ -70,7 +70,7 @@ Type in the password (xilinx). You can log into the terminal. At this time, Ultr
 
 
 
-## 4 SDx Project Development
+## 5 SDx Project Development
 Go back to SDx, double click `Linux Agent [default]`. Change the host to `192.168.3.1`.
 
 ![](/img/tcf.JPG)
