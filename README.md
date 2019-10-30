@@ -65,8 +65,9 @@ Open `http://192.168.3.1:9090/notebooks/common/overlay_download.ipynb` in the br
 
 ![](/img/download.jpg)
 
+Now, you can go back to SDx to do debugging or tracing.
 
-
+![](/img/trace.jpg)
 
 
 
