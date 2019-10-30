@@ -58,7 +58,7 @@ Export the `ESE532Linux.bit` as below.
 
 Upload `ESE532Linux.tcl` and `ESE532Linux.bit` to `http://192.168.3.1:9090/tree/common`
 
-![](/img/upload.JPG)
+![](/img/upload.jpg)
 
 
 Open `http://192.168.3.1:9090/notebooks/common/overlay_download.ipynb` in the browser. Modify the name of bit and execute `ol.download`.
