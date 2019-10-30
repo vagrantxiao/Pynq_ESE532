@@ -39,11 +39,26 @@ Go back to SDx, double click `Linux Agent [default]`. Change the host to `192.16
 
 Greate a new SDx project. This time, your project is based on ESE532Linux platform which can be found under [Our repo](ese532Linux). You can integrated this platform as the [tutorial](https://github.com/vagrantxiao/ultra96_ese532) we gave you before. Now, you can run or debug it as the standalone.
 
+## Hardware Acceleration
+If you move some functions into hardware, you need to manually download the files into Ultra96. 
 
+![](/img/hardware.JPG)
 
+After the SDx compilation, we need to open VIVADO the open the hardware project as show in HW6. The prj.xpr is under `< Your project dir >/Debug/_sds/p0/vivado/prj/prj.xpr`. Click `Open Block Design` as below.
 
+![](/img/open_block.jpg)
 
+Export the `ESE532Linux.tcl` as below.
 
+![](/img/export_block.jpg)
+
+Export the `ESE532Linux.bit` as below.
+
+![](/img/export_bit.jpg)
+
+Open `http://192.168.3.1:9090/notebooks/common/overlay_download.ipynb` in the browser. Modify the name of bit and execute `ol.download`.
+
+![](/img/download.jpg)
 
 
 
