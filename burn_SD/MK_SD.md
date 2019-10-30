@@ -19,7 +19,7 @@ Go to your internet browser, and access 192.168.3.1 to log into a jupyter termin
 
  Type in the password (xilinx). You can log into the terminal. At this time, Ultra96-V2 is a server. Go to `http://192.168.3.1:9090/notebooks/common/wifi.ipynb`. Run the this the python code to connect your board with WIFI, so that you can install drivers for your Pynq OS. Open a terminal, as below.
 
-![](/img/terminal.JPG)
+![](/img/terminal.jpg)
 
 Copy the 'libsds_lib.so' from '< Your SDx Installation Path >/SDx/2018.3/target/aarch64-linux/lib' to the root of the `\\pynq\xilinx`. You may need to enter the User ID (xilinx) and password (xilinx) to access the destination directory. 
 ![](/img/libs.jpg)
