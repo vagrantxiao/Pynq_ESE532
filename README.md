@@ -56,7 +56,7 @@ Go back to SDx, double click `Linux Agent [default]`. Change the host to `192.16
 ## 4 Boot from Linux
 Insert the SD Card into Ultra96-V2. Change the the boot mode to SD card mode. 
 
-![](/img/sdmode.jpg)
+![SD card Mode](/img/sdmode.jpg | width=100)
 
 Connect USB downstream to the PC. You can also connect JTAG board to the PC. 
 
