@@ -29,6 +29,8 @@ Go to `http://192.168.3.1:9090/notebooks/common/wifi.ipynb`. Run the this the py
 
 ![](/img/terminal.jpg)
 
+In the terminal execute `/etc/init.d/tcf-agent start`.
+![](/img/start_tcf.jpg)
 
 ## 4 SDx Project Development
 Go back to SDx, double click `Linux Agent [default]`. Change the host to `192.168.3.1`.
