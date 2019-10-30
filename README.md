@@ -4,7 +4,7 @@
 This a tutorial to show how to use the Pynq overlay on Ultra96 to interact with SDSoC.
 
 ## 2 Boot SD Card Creation
-If you get an SD card from us. It has some Pynq image inside, and Go to `4 Boot from Linux`. If you did not get an SD Card from us, you can burn the image file into the SD card by yourself. Download the image files from [Pynq website](http://www.pynq.io/board.html). Choose Avnet `Ultra96-V2: v2.5 PYNQ image`. Download a tool called `balenaetcher`. Select the downloaded image file for Ultra96-V2, choose the SD card as target device and flash!
+If you get an SD card from us. It has some Pynq image inside, and go to `4 Boot from Linux`. If you did not get an SD Card from us, you can burn the image file into the SD card by yourself. Download the image files from [Pynq website](http://www.pynq.io/board.html). Choose Avnet `Ultra96-V2: v2.5 PYNQ image`. Download a tool called `balenaetcher`. Select the downloaded image file for Ultra96-V2, choose the SD card as target device and flash!
 
 ![](/img/flash.JPG)
 
@@ -19,9 +19,11 @@ Connect USB downstream to the PC. You can also connect JTAG board to the PC.
 
 Power on the board. You should see boot information in SDx Terminal.
 
-![](/img/bootOK.JPG)
 
-Type in the password (xilinx). You can log into the terminal. At this time, Ultra96-V2 is a server. Go to `http://192.168.3.1:9090/notebooks/common/wifi.ipynb`. Run the this the python code to connect your board with WIFI, so that you can install drivers for your Pynq OS. Open a terminal, as below.
+Go to your internet browser, and access 192.168.3.1 to log into a jupyter terminal.
+![](/img/jupyter.jpg)
+
+ Type in the password (xilinx). You can log into the terminal. At this time, Ultra96-V2 is a server. Go to `http://192.168.3.1:9090/notebooks/common/wifi.ipynb`. Run the this the python code to connect your board with WIFI, so that you can install drivers for your Pynq OS. Open a terminal, as below.
 
 ![](/img/terminal.JPG)
 
@@ -66,9 +68,13 @@ Power on the board. You should see boot information in SDx Terminal.
 
 ![](/img/bootOK.JPG)
 
-Type in the password (xilinx). You can log into the terminal. At this time, Ultra96-V2 is a server. Go to `http://192.168.3.1:9090/notebooks/common/wifi.ipynb`. Run the this the python code to connect your board with WIFI, so that you can install drivers for your Pynq OS. Open a terminal, as below.
+Go to your internet browser, and access 192.168.3.1 to log into a jupyter terminal. Type in the password (xilinx). You can log into the terminal. At this time, Ultra96-V2 is a server. 
+![](/img/jupyter.JPG)
 
-![](/img/terminal.JPG)
+
+Go to `http://192.168.3.1:9090/notebooks/common/wifi.ipynb`. Run the this the python code to connect your board with WIFI, so that you can install drivers for your Pynq OS. Open a terminal, as below.
+
+![](/img/terminal.jpg)
 
 
 
