@@ -27,6 +27,7 @@ Copy the 'libsds_lib.so' from '< Your SDx Installation Path >/SDx/2018.3/target/
 In this Jupyter Ubuntu system, execute such code.
 
 ````bash
+cp libsds_lib.so /usr/lib
 git clone http://git.eclipse.org/gitroot/tcf/org.eclipse.tcf.agent.git
 cd org.eclipse.tcf.agent/agent/
 make -j4
