@@ -25,7 +25,10 @@ Type in the password (xilinx). You can log into the terminal. At this time, Ultr
 
 ![](/img/terminal.JPG)
 
-In this Ubuntu system, execute such code.
+Copy the 'libsds_lib.so' from '< Your SDx Installation Path >/SDx/2018.3/target/aarch64-linux/lib' to the root of the `\\pynq\xilinx`. You may need to enter the User ID (xilinx) and password (xilinx) to access the destination directory. 
+![](/img/libs.jpg)
+
+In this Jupyter Ubuntu system, execute such code.
 
 ````bash
 git clone http://git.eclipse.org/gitroot/tcf/org.eclipse.tcf.agent.git
